@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    width: 600px;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.header-left{
+ display: flex;
+ flex-direction: row;
+ 
+    
+}
+.logo{
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+}
+.imagen{
+    width: 600px;
+}
+p{
+    font-size: 12px;
+}
+.icon{
+    font-size: 25px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.likes{
+    margin: 10px ;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.text{
+    margin: 10px; 
+}
